@@ -1,0 +1,32 @@
+.home1 {
+    display: flex;
+  }
+  .post__image {
+    max-width: 100%;
+  }
+  .post__likeoptions {
+    max-width: 100%;
+  }
+ 
+  .post{
+      max-width: 100%;
+  }
+  .user_img{
+    height: 70px;
+    width: 0px;
+    border:1.5px solid #f5f6fa;
+    overflow-x: hidden;  
+    overflow-y: hidden;  
+
+
+
+}
+.user_img1{
+  height: 70px;
+  width: 100px;
+  border:1.5px solid #f5f6fa;
+   
+
+
+
+}

@@ -1,0 +1,183 @@
+body{
+    background:white;  
+    
+
+}
+.chat-list {
+    padding: 0;
+    font-size: .8rem;
+
+}
+
+.chat-list li {
+    margin-bottom: 10px;
+    overflow: auto;
+    color: #ffffff;
+    overflow-x: hidden; 
+    overflow-y: hidden;  
+ 
+
+}
+
+.chat-list .chat-img {
+    float: left;
+    width: 48px;
+    overflow-x: hidden; 
+    overflow-y: hidden;  
+ 
+
+}
+
+.chat-list .chat-img img {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;  
+  
+
+}
+
+.chat-list .chat-message {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: #5a99ee;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;  
+  
+
+}
+
+.chat-list .chat-message:before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    width: 0;
+    height: 0;
+    overflow-x: hidden; 
+    overflow-y: hidden;  
+ 
+
+}
+
+.chat-list .chat-message h5 {
+    margin: 0 0 5px 0;
+    font-weight: 600;
+    line-height: 100%;
+    font-size: .9rem;
+    overflow-x: hidden; 
+    overflow-y: hidden;  
+ 
+
+}
+
+.chat-list .chat-message p {
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    overflow-y: hidden;  
+ 
+
+}
+
+.chat-list .chat-body {
+    margin-left: 20px;
+    float: left;
+    width: 70%;
+    overflow-x: hidden; 
+    overflow-y: hidden;  
+ 
+
+}
+
+.chat-list .in .chat-message:before {
+    left: -12px;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #5a99ee;
+    overflow-x: hidden;  
+    overflow-y: hidden;  
+
+
+}
+
+.chat-list .out .chat-img {
+    float: right;
+    overflow-x: hidden; 
+    overflow-y: hidden;  
+ 
+
+}
+
+.chat-list .out .chat-body {
+    float: right;
+    margin-right: 20px;
+    text-align: right;
+    overflow-x: hidden;
+    overflow-y: hidden;  
+  
+
+}
+
+.chat-list .out .chat-message {
+    background: #fc6d4c;
+    overflow-x: hidden;  
+    overflow-y: hidden;  
+
+
+}
+
+.chat-list .out .chat-message:before {
+    right: -12px;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #fc6d4c;
+    overflow-x: hidden; 
+    overflow-y: hidden;  
+ 
+
+}
+
+.card .card-header:first-child {
+    -webkit-border-radius: 0.3rem 0.3rem 0 0;
+    -moz-border-radius: 0.3rem 0.3rem 0 0;
+    border-radius: 0.3rem 0.3rem 0 0;
+    overflow-x: hidden; 
+    overflow-y: hidden;  
+ 
+
+}
+.card .card-header {
+    background: #17202b;
+    border: 0;
+    font-size: 1rem;
+    padding: .65rem 1rem;
+    position: relative;
+    font-weight: 600;
+    color: #ffffff;
+    overflow-x: hidden;
+    overflow-y: hidden;  
+  
+
+}
+
+.content{
+    margin-top:40px;
+     
+ 
+    
+}
+.user_img{
+    height: 70px;
+    width: 70px;
+    border:1.5px solid #f5f6fa;
+    overflow-x: hidden;  
+    overflow-y: hidden;  
+
+
+
+}
